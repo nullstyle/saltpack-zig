@@ -1,5 +1,7 @@
 # saltpack-zig
 
+**WARNING:  This code was extensively vibed;  it's just for me right now**
+
 A Zig implementation of the [saltpack](https://saltpack.org) cryptographic messaging format.
 
 ## Features
