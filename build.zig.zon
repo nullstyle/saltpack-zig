@@ -1,0 +1,19 @@
+.{
+    .name = .saltpack,
+    .version = "0.1.0",
+    .description = "A Zig implementation of the saltpack cryptographic messaging format",
+    .minimum_zig_version = "0.15.0",
+    .fingerprint = 0xafc2065a31a19eb1,
+    .dependencies = .{
+        .zig_msgpack = .{
+            .url = "https://github.com/zigcc/zig-msgpack/archive/47c15d217efebd17a585dd04125f9b6b6f659d5a.tar.gz",
+            .hash = "zig_msgpack-0.0.14-evvueGolBQBs_m726tBf4ISJQqC926AM96EtxZy9LUaI",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}

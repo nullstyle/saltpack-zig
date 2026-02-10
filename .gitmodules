@@ -1,0 +1,3 @@
+[submodule "ref/saltpack"]
+	path = ref/saltpack
+	url = https://github.com/keybase/saltpack.git
